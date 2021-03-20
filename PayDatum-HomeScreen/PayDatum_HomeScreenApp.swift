@@ -11,7 +11,10 @@ import SwiftUI
 struct PayDatum_HomeScreenApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           
+                ContentView()
+  
+            
         }
     }
 }

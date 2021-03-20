@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB628E212605FA3E00F66146 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB628E202605FA3E00F66146 /* SecondView.swift */; };
+		EB628E24260604AD00F66146 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB628E23260604AD00F66146 /* AlertView.swift */; };
+		EB628E27260604D900F66146 /* RecieptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB628E26260604D900F66146 /* RecieptView.swift */; };
 		EBDDFBB52605A7E1005440EF /* PayDatum_HomeScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDDFBB42605A7E1005440EF /* PayDatum_HomeScreenApp.swift */; };
 		EBDDFBB72605A7E1005440EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDDFBB62605A7E1005440EF /* ContentView.swift */; };
 		EBDDFBB92605A7E1005440EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDDFBB82605A7E1005440EF /* Assets.xcassets */; };
 		EBDDFBBC2605A7E1005440EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDDFBBB2605A7E1005440EF /* Preview Assets.xcassets */; };
+		EBDDFBC62605A8D3005440EF /* HomeQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDDFBC52605A8D3005440EF /* HomeQRCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB628E202605FA3E00F66146 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		EB628E23260604AD00F66146 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		EB628E26260604D900F66146 /* RecieptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieptView.swift; sourceTree = "<group>"; };
 		EBDDFBB12605A7E1005440EF /* PayDatum-HomeScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PayDatum-HomeScreen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBDDFBB42605A7E1005440EF /* PayDatum_HomeScreenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayDatum_HomeScreenApp.swift; sourceTree = "<group>"; };
 		EBDDFBB62605A7E1005440EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EBDDFBB82605A7E1005440EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBDDFBBB2605A7E1005440EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBDDFBBD2605A7E1005440EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDDFBC52605A8D3005440EF /* HomeQRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeQRCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,7 @@
 		EBDDFBB32605A7E1005440EF /* PayDatum-HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				EBDDFBC42605A8B7005440EF /* Views */,
 				EBDDFBB42605A7E1005440EF /* PayDatum_HomeScreenApp.swift */,
 				EBDDFBB62605A7E1005440EF /* ContentView.swift */,
 				EBDDFBB82605A7E1005440EF /* Assets.xcassets */,
@@ -67,6 +76,17 @@
 				EBDDFBBB2605A7E1005440EF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBDDFBC42605A8B7005440EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBDDFBC52605A8D3005440EF /* HomeQRCode.swift */,
+				EB628E202605FA3E00F66146 /* SecondView.swift */,
+				EB628E23260604AD00F66146 /* AlertView.swift */,
+				EB628E26260604D900F66146 /* RecieptView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB628E24260604AD00F66146 /* AlertView.swift in Sources */,
+				EBDDFBC62605A8D3005440EF /* HomeQRCode.swift in Sources */,
 				EBDDFBB72605A7E1005440EF /* ContentView.swift in Sources */,
+				EB628E27260604D900F66146 /* RecieptView.swift in Sources */,
+				EB628E212605FA3E00F66146 /* SecondView.swift in Sources */,
 				EBDDFBB52605A7E1005440EF /* PayDatum_HomeScreenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
